@@ -1,0 +1,3 @@
+# Unexpected Behavior with Mutable Variables and Inline Functions in F# 
+
+This example demonstrates a potential issue when using mutable variables in conjunction with inline functions in F#. While seemingly straightforward, the interaction can lead to unexpected results that are not immediately obvious. The core problem stems from how the compiler handles inlining and the implications for mutable variable updates. The solution illustrates how to address this by carefully managing variable scope and avoiding unexpected side effects.
